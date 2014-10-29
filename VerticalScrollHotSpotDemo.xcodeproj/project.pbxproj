@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FEA419541A008DF600D07E32 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA419531A008DF600D07E32 /* main.m */; };
+		FEA419571A008DF600D07E32 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA419561A008DF600D07E32 /* AppDelegate.m */; };
+		FEA4195A1A008DF600D07E32 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA419591A008DF600D07E32 /* ViewController.m */; };
+		FEA4195D1A008DF600D07E32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEA4195B1A008DF600D07E32 /* Main.storyboard */; };
+		FEA4195F1A008DF600D07E32 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEA4195E1A008DF600D07E32 /* Images.xcassets */; };
+		FEA419621A008DF600D07E32 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEA419601A008DF600D07E32 /* LaunchScreen.xib */; };
+		FEA419791A008EAA00D07E32 /* HotSpotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA419781A008EAA00D07E32 /* HotSpotViewController.m */; };
+		FEA4197D1A008FB800D07E32 /* F15Image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FEA4197C1A008FB800D07E32 /* F15Image.jpg */; };
+		FEA419801A0094FE00D07E32 /* ScrollButtonVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA4197F1A0094FE00D07E32 /* ScrollButtonVC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FEA419681A008DF600D07E32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEA419461A008DF600D07E32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEA4194D1A008DF600D07E32;
+			remoteInfo = VerticalScrollHotSpotDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FEA4194E1A008DF600D07E32 /* VerticalScrollHotSpotDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VerticalScrollHotSpotDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEA419521A008DF600D07E32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEA419531A008DF600D07E32 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FEA419551A008DF600D07E32 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FEA419561A008DF600D07E32 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FEA419581A008DF600D07E32 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FEA419591A008DF600D07E32 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FEA4195C1A008DF600D07E32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FEA4195E1A008DF600D07E32 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FEA419611A008DF600D07E32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FEA419671A008DF600D07E32 /* VerticalScrollHotSpotDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VerticalScrollHotSpotDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEA419771A008EAA00D07E32 /* HotSpotViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotSpotViewController.h; sourceTree = "<group>"; };
+		FEA419781A008EAA00D07E32 /* HotSpotViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotSpotViewController.m; sourceTree = "<group>"; };
+		FEA4197C1A008FB800D07E32 /* F15Image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = F15Image.jpg; sourceTree = "<group>"; };
+		FEA4197E1A0094FE00D07E32 /* ScrollButtonVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollButtonVC.h; sourceTree = "<group>"; };
+		FEA4197F1A0094FE00D07E32 /* ScrollButtonVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollButtonVC.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEA4194B1A008DF600D07E32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEA419641A008DF600D07E32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FEA419451A008DF600D07E32 = {
+			isa = PBXGroup;
+			children = (
+				FEA419501A008DF600D07E32 /* VerticalScrollHotSpotDemo */,
+				FEA4194F1A008DF600D07E32 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FEA4194F1A008DF600D07E32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEA4194E1A008DF600D07E32 /* VerticalScrollHotSpotDemo.app */,
+				FEA419671A008DF600D07E32 /* VerticalScrollHotSpotDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEA419501A008DF600D07E32 /* VerticalScrollHotSpotDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FEA4197C1A008FB800D07E32 /* F15Image.jpg */,
+				FEA419551A008DF600D07E32 /* AppDelegate.h */,
+				FEA419561A008DF600D07E32 /* AppDelegate.m */,
+				FEA419581A008DF600D07E32 /* ViewController.h */,
+				FEA419591A008DF600D07E32 /* ViewController.m */,
+				FEA419771A008EAA00D07E32 /* HotSpotViewController.h */,
+				FEA419781A008EAA00D07E32 /* HotSpotViewController.m */,
+				FEA4195B1A008DF600D07E32 /* Main.storyboard */,
+				FEA4195E1A008DF600D07E32 /* Images.xcassets */,
+				FEA419601A008DF600D07E32 /* LaunchScreen.xib */,
+				FEA419511A008DF600D07E32 /* Supporting Files */,
+				FEA4197E1A0094FE00D07E32 /* ScrollButtonVC.h */,
+				FEA4197F1A0094FE00D07E32 /* ScrollButtonVC.m */,
+			);
+			path = VerticalScrollHotSpotDemo;
+			sourceTree = "<group>";
+		};
+		FEA419511A008DF600D07E32 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FEA419521A008DF600D07E32 /* Info.plist */,
+				FEA419531A008DF600D07E32 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FEA4194D1A008DF600D07E32 /* VerticalScrollHotSpotDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEA419711A008DF600D07E32 /* Build configuration list for PBXNativeTarget "VerticalScrollHotSpotDemo" */;
+			buildPhases = (
+				FEA4194A1A008DF600D07E32 /* Sources */,
+				FEA4194B1A008DF600D07E32 /* Frameworks */,
+				FEA4194C1A008DF600D07E32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VerticalScrollHotSpotDemo;
+			productName = VerticalScrollHotSpotDemo;
+			productReference = FEA4194E1A008DF600D07E32 /* VerticalScrollHotSpotDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FEA419661A008DF600D07E32 /* VerticalScrollHotSpotDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEA419741A008DF600D07E32 /* Build configuration list for PBXNativeTarget "VerticalScrollHotSpotDemoTests" */;
+			buildPhases = (
+				FEA419631A008DF600D07E32 /* Sources */,
+				FEA419641A008DF600D07E32 /* Frameworks */,
+				FEA419651A008DF600D07E32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEA419691A008DF600D07E32 /* PBXTargetDependency */,
+			);
+			name = VerticalScrollHotSpotDemoTests;
+			productName = VerticalScrollHotSpotDemoTests;
+			productReference = FEA419671A008DF600D07E32 /* VerticalScrollHotSpotDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEA419461A008DF600D07E32 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = ideo;
+				TargetAttributes = {
+					FEA4194D1A008DF600D07E32 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					FEA419661A008DF600D07E32 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = FEA4194D1A008DF600D07E32;
+					};
+				};
+			};
+			buildConfigurationList = FEA419491A008DF600D07E32 /* Build configuration list for PBXProject "VerticalScrollHotSpotDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FEA419451A008DF600D07E32;
+			productRefGroup = FEA4194F1A008DF600D07E32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEA4194D1A008DF600D07E32 /* VerticalScrollHotSpotDemo */,
+				FEA419661A008DF600D07E32 /* VerticalScrollHotSpotDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FEA4194C1A008DF600D07E32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEA4197D1A008FB800D07E32 /* F15Image.jpg in Resources */,
+				FEA4195D1A008DF600D07E32 /* Main.storyboard in Resources */,
+				FEA419621A008DF600D07E32 /* LaunchScreen.xib in Resources */,
+				FEA4195F1A008DF600D07E32 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEA419651A008DF600D07E32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEA4194A1A008DF600D07E32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEA4195A1A008DF600D07E32 /* ViewController.m in Sources */,
+				FEA419571A008DF600D07E32 /* AppDelegate.m in Sources */,
+				FEA419791A008EAA00D07E32 /* HotSpotViewController.m in Sources */,
+				FEA419801A0094FE00D07E32 /* ScrollButtonVC.m in Sources */,
+				FEA419541A008DF600D07E32 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEA419631A008DF600D07E32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FEA419691A008DF600D07E32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEA4194D1A008DF600D07E32 /* VerticalScrollHotSpotDemo */;
+			targetProxy = FEA419681A008DF600D07E32 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FEA4195B1A008DF600D07E32 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEA4195C1A008DF600D07E32 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FEA419601A008DF600D07E32 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEA419611A008DF600D07E32 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FEA4196F1A008DF600D07E32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		FEA419701A008DF600D07E32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FEA419721A008DF600D07E32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VerticalScrollHotSpotDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FEA419731A008DF600D07E32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VerticalScrollHotSpotDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FEA419751A008DF600D07E32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VerticalScrollHotSpotDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VerticalScrollHotSpotDemo.app/VerticalScrollHotSpotDemo";
+			};
+			name = Debug;
+		};
+		FEA419761A008DF600D07E32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VerticalScrollHotSpotDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VerticalScrollHotSpotDemo.app/VerticalScrollHotSpotDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEA419491A008DF600D07E32 /* Build configuration list for PBXProject "VerticalScrollHotSpotDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEA4196F1A008DF600D07E32 /* Debug */,
+				FEA419701A008DF600D07E32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEA419711A008DF600D07E32 /* Build configuration list for PBXNativeTarget "VerticalScrollHotSpotDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEA419721A008DF600D07E32 /* Debug */,
+				FEA419731A008DF600D07E32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FEA419741A008DF600D07E32 /* Build configuration list for PBXNativeTarget "VerticalScrollHotSpotDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEA419751A008DF600D07E32 /* Debug */,
+				FEA419761A008DF600D07E32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FEA419461A008DF600D07E32 /* Project object */;
+}
