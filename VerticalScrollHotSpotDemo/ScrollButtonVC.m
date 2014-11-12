@@ -17,9 +17,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    [self.scrollView setContentSize:CGSizeMake(1024, self.imageView.frame.size.height)];
+    [self.scrollView setContentSize:CGSizeMake(self.imageView.frame.size.width, self.imageView.frame.size.height)];
 }
-
+-(void)viewDidAppear:(BOOL)animated {
+    NSLog(@"VC::viewDidAppear");
+    //[self.scrollView setContentOffset:CGPointMake(500, 500)];
+}
 -(IBAction)buttonClicked:(id)sender {
     NSLog(@"Button Clicked");
 }
