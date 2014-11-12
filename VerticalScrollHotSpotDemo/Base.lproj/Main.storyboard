@@ -20,7 +20,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="F15Image.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Kl8-j3-Azd">
-                                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1571"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="2048" height="3142"/>
                                     </imageView>
                                     <button opaque="NO" alpha="0.5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NBN-m5-PFL">
                                         <rect key="frame" x="8" y="8" width="100" height="100"/>
