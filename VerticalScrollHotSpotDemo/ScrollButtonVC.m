@@ -16,8 +16,17 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    // Comment out the ones you don't want
+    
+    // Both directions
     [self.scrollView setContentSize:CGSizeMake(self.imageView.frame.size.width, self.imageView.frame.size.height)];
+
+    // Only scroll Vertically
+    //[self.scrollView setContentSize:CGSizeMake(self.scrollView.frame.size.width, self.imageView.frame.size.height)];
+    
+    // Only scroll Horizontally
+    //[self.scrollView setContentSize:CGSizeMake(self.imageView.frame.size.width, self.scrollView.frame.size.height)];
 }
 -(void)viewDidAppear:(BOOL)animated {
     NSLog(@"VC::viewDidAppear");

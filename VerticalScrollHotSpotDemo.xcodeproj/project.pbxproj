@@ -66,14 +66,14 @@
 				FEA4197C1A008FB800D07E32 /* F15Image.jpg */,
 				FEA419551A008DF600D07E32 /* AppDelegate.h */,
 				FEA419561A008DF600D07E32 /* AppDelegate.m */,
+				FEA4197E1A0094FE00D07E32 /* ScrollButtonVC.h */,
+				FEA4197F1A0094FE00D07E32 /* ScrollButtonVC.m */,
 				FEA419771A008EAA00D07E32 /* HotSpotViewController.h */,
 				FEA419781A008EAA00D07E32 /* HotSpotViewController.m */,
 				FEA4195B1A008DF600D07E32 /* Main.storyboard */,
 				FEA4195E1A008DF600D07E32 /* Images.xcassets */,
 				FEA419601A008DF600D07E32 /* LaunchScreen.xib */,
 				FEA419511A008DF600D07E32 /* Supporting Files */,
-				FEA4197E1A0094FE00D07E32 /* ScrollButtonVC.h */,
-				FEA4197F1A0094FE00D07E32 /* ScrollButtonVC.m */,
 			);
 			path = VerticalScrollHotSpotDemo;
 			sourceTree = "<group>";
